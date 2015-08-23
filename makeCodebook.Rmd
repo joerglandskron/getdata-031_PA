@@ -1,0 +1,149 @@
+---
+title: "Codebook"
+author: "Joerg Landskron"
+date: "21. August 2015"
+output: html_document
+---
+
+
+##Subject
+
+This Codebook describes following process:
+
+1. Tidying the **Human Activity Recognition Using Smartphones Data Set**
+    + Merging the trainings- and test-dataset
+    + adding the acivities and descriptive activity-names
+    + adding the subject-no
+2. Extracting all variables for mean and standard deviation on the measurements in the dataset
+3. Creating desciptive variable names for the taken variables
+4. Create a new dataset, in which a mean on all variables has been calculated for each activity and subject
+
+
+##The Origin Dataset
+The origin dataset on which this tidying-process is based on can be downloaded here:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+A detailed description of the study design is available at the website of the UCI Machine Learning Repository:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The Dataset.zip file consists of the following single files:
+
+1. **README.txt**
+    + Describes also the study design and the different files of the dataset
+2. **features_info.txt**
+    + Shows information about the variables used on the feature vector.
+3. **features.txt**
+    + List of all features (561 features and column-reference to the test- and training set)
+4. **activity_labels.txt**
+    + Links the activity labels (1-6) with their activity name (1-WALKING, 2-WALKING_UPSTAIRS, 3-WALKING_DOWNSTAIRS, 4-SITTING, 5-STANDING, 6-LAYING)
+5. **train/X_train.txt**
+    + Training set (7352 observations, 561 variables)
+6. **train/y_train.txt**
+    + Activity labels for the training set (7532 observations, range of labels 1-6)
+7. **test/X_test.txt**
+    + Test set (2947 observations, 561 variables)
+8. **test/y_test.txt**
+    + Activity labels for the test set (2947 observations, range of labels 1-6)
+9. **train/subject_train.txt**
+    + Each row identifies the subject who performed the activity for each window sample (range of subject identifiers 1-30) for the training dataset
+10. **test/subject_test.txt**
+    + Each row identifies the subject who performed the activity for each window sample (range of subject identifiers 1-30) for the test dataset
+11. **train/Inertial Signals/total_acc_x_train.txt** 
+    + The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+12. **train/Inertial Signals/body_acc_x_train.txt**
+    + The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+13. **train/Inertial Signals/body_gyro_x_train.txt**
+    + The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+
+
+
+## Data transformation
+All of the following tranformation steps are performed by a script called **run_analysis.R**.
+The script is stored in the same repo like this codebook. More information, how to run this script you can find in the **README.md** file also stored in this repo.
+
+###1) Needed files
+The first step for preparing the data transformation is to identify the files needed from the origin dataset.
+As the task was to extract only variables containing the **mean** or **standard deviation** all files in the "Inertial"-Folder (files 11, 12 and 13) are not needed, because they do not contain any of this variables. Contrario all other files containing data (files 3-10) are taken into consideration.
+
+###2) Selecting needed variables
+In the second step the needed variables are identified from the features.txt-file which contains 561 variable names with reference-numbers in a 2nd column ("1", "2", ..., "561") which are corresponding with the columns of the test- and training datasets (X_test.txt and X_train.txt).
+
+Corresponding to the features_info.txt-file all variables containing a computed mean or standard deviation are marked with **mean()** for mean or **std()** for standard deviation. There are also some other variables with "Mean" or "Std" contained in the name, but these were not necessarily pure means or standard deviations, but e.g. a weighted mean. Therefore they were not inculuded in the further processing.
+
+The variables including "mean()" or "std()" in their name can be easily identified in the features.txt with the statement 
+```grepl("mean\\(\\)|std\\(\\)"```.
+
+For documentation the features.txt-file and all further steps of selecting and changing variable names are stored in a separate dataframe called **features.doc**. The content of this file you can see in the table at the end of this codebook. In this table all the origin variable names and the variables are taken for further processing are listed. Additionally it is mentioned, which operations are performed on them and how they are named in the result data set called **resultDat.csv**.
+
+###3) Create descriptive variable names
+For creating descriptive variable names I decided to break down the variable names by separate name components. Each component starts with an uppercase character. This kind of composed variable names are also accepted by the [R-Google-Styleguide][1] and are not to far from the origin names.
+
+Each part of the name-components could still be an abbreviation to prevent the variable names to become to long and confusing. Therefore please find a short explanation of all of the components and used abbreviations below:
+
+|  Abbreviation  |  Complete Name      | Comment                                        |
+| :------------- | :------------------ | :--------------------------------------------- |
+|  Mean          |  Mean               |  Mean of origin variable per Subject, Activity |
+|  Time          |  Time               |                                                |
+|  Freq          |  Frequency          |                                                |
+|  Body          |  Body               |                                                | 
+|  Gravity       |  Gravity            |                                                | 
+|  Acc           |  Acceleration       |                                                | 
+|  Gyro          |  Gyroscope          |                                                |
+|  Jerk          |  Jerk               |                                                |
+|  Mag           |  Magnitude          |                                                |
+|  Mean          |  Mean               |                                                |
+|  Std           |  Standard deviation |                                                |
+|  X, Y, Z       |  X, Y, Z            |  3-axial signals                               |
+
+For a detailed description of all the components from the origin variable name please refer to the features_info.txt-file.
+
+The change of the variable names were performed by grep-commands. The results were stored in the features.doc-dataframe.
+
+###4) Drop not needed columns
+After the needed variables are selected from features.txt and have been renamed, all not needed columns can be removed from the test- and train datasets. This was performed via the reference-column in the features.txt ("1", "2",...). The assumption is, that every number stored in the "V1"-column in the features.txt are directly refer to a column ("V1", "V2",..., "V562") of the test- and training dataset. Doing so, this would also work, if the columns in the test- and training datasets or the rows in the features.txt are not sorted as long as the reference is properly assigned (but in this particular dataset both are already sorted).
+In the same step the descriptive variable names are assigned to the remaining columns in the test- and training datasets.
+
+###5) Add activity labels
+In this step the activity labels provided in the file **test/y_test.txt** were added to the test dataset and from the **train/y_train.txt** to training dataset. The assumption was, that both files are ordered correspondingly already. Anyway there was no other way to combine the files in a senseful manner.
+
+###6) Add subject labels
+As like adding the activity labels, the subject labels are added in the same manner with the same assumptions.
+The subject labels provided in the file **test/subject_test.txt** were added to the test dataset and from the **train/subject_train.txt** to training dataset. 
+
+###7) Merge activity names
+In this step the descriptive activity names described in the **activity_labels.txt**-file are merged to the test- and training dataset referring to the already added numeric activiy labels. After that the numeric activity-labels are removed for preventing redundancy.
+
+###8) Combining test- and training datasets
+As the test- and training datasets are having the same column count and columnnames they can be combined using the rbind-function in R.
+
+###9) Create result dataset
+Here the result dataset is generated by grouping the already combined test- and training dataset by subject-no and activity-name and calculating a mean on each column by this grouping.
+
+###10) Write result dataset to disc
+In the last step the resutl dataset is saved to disc in the file **resultDat.csv** which can be found also in this repo.
+
+###List of all variables
+Below you can find a list of all origin variables in the original order in the **features.txt**-file.
+
+The table consists of 5 columns:
+
+1. **Ref**
+    + Column-number of variable derived from the first column of the features.txt-file
+2. **OrigFeatureName**
+    + Origin variable name taken form the second column of the features.txt-file
+3. **Used**
+    + logical values, which are defining, wether the variable is used in the further processing or not (TRUE=used, FALSE=removed)
+4. **Operation**
+    + Information, which calculation was performend on the variable
+5. **FinalFeatureName**
+    + Shows the final descriptive variable name from the result dataset stored in the file **resultDat.csv**
+    
+The list can be found also in this repo stored in file **featuresdoc.csv**.
+
+```{r kable, echo=FALSE}
+library(knitr)
+features.doc <- read.csv("featuresdoc.csv")
+kable(features.doc[,c("Ref", "OrigFeatureName", "Used", "Operation", "FinalFeatureName")])
+```
+
+[1]: https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml

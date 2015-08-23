@@ -1,0 +1,562 @@
+"Ref","OrigFeatureName","Used","CleanFeatureName","Operation","FinalFeatureName"
+"V1","tBodyAcc-mean()-X",TRUE,"TimeBodyAccMeanX","Mean by Subject, Activity","MeanTimeBodyAccMeanX"
+"V2","tBodyAcc-mean()-Y",TRUE,"TimeBodyAccMeanY","Mean by Subject, Activity","MeanTimeBodyAccMeanY"
+"V3","tBodyAcc-mean()-Z",TRUE,"TimeBodyAccMeanZ","Mean by Subject, Activity","MeanTimeBodyAccMeanZ"
+"V4","tBodyAcc-std()-X",TRUE,"TimeBodyAccStdX","Mean by Subject, Activity","MeanTimeBodyAccStdX"
+"V5","tBodyAcc-std()-Y",TRUE,"TimeBodyAccStdY","Mean by Subject, Activity","MeanTimeBodyAccStdY"
+"V6","tBodyAcc-std()-Z",TRUE,"TimeBodyAccStdZ","Mean by Subject, Activity","MeanTimeBodyAccStdZ"
+"V7","tBodyAcc-mad()-X",FALSE,NA,NA,NA
+"V8","tBodyAcc-mad()-Y",FALSE,NA,NA,NA
+"V9","tBodyAcc-mad()-Z",FALSE,NA,NA,NA
+"V10","tBodyAcc-max()-X",FALSE,NA,NA,NA
+"V11","tBodyAcc-max()-Y",FALSE,NA,NA,NA
+"V12","tBodyAcc-max()-Z",FALSE,NA,NA,NA
+"V13","tBodyAcc-min()-X",FALSE,NA,NA,NA
+"V14","tBodyAcc-min()-Y",FALSE,NA,NA,NA
+"V15","tBodyAcc-min()-Z",FALSE,NA,NA,NA
+"V16","tBodyAcc-sma()",FALSE,NA,NA,NA
+"V17","tBodyAcc-energy()-X",FALSE,NA,NA,NA
+"V18","tBodyAcc-energy()-Y",FALSE,NA,NA,NA
+"V19","tBodyAcc-energy()-Z",FALSE,NA,NA,NA
+"V20","tBodyAcc-iqr()-X",FALSE,NA,NA,NA
+"V21","tBodyAcc-iqr()-Y",FALSE,NA,NA,NA
+"V22","tBodyAcc-iqr()-Z",FALSE,NA,NA,NA
+"V23","tBodyAcc-entropy()-X",FALSE,NA,NA,NA
+"V24","tBodyAcc-entropy()-Y",FALSE,NA,NA,NA
+"V25","tBodyAcc-entropy()-Z",FALSE,NA,NA,NA
+"V26","tBodyAcc-arCoeff()-X,1",FALSE,NA,NA,NA
+"V27","tBodyAcc-arCoeff()-X,2",FALSE,NA,NA,NA
+"V28","tBodyAcc-arCoeff()-X,3",FALSE,NA,NA,NA
+"V29","tBodyAcc-arCoeff()-X,4",FALSE,NA,NA,NA
+"V30","tBodyAcc-arCoeff()-Y,1",FALSE,NA,NA,NA
+"V31","tBodyAcc-arCoeff()-Y,2",FALSE,NA,NA,NA
+"V32","tBodyAcc-arCoeff()-Y,3",FALSE,NA,NA,NA
+"V33","tBodyAcc-arCoeff()-Y,4",FALSE,NA,NA,NA
+"V34","tBodyAcc-arCoeff()-Z,1",FALSE,NA,NA,NA
+"V35","tBodyAcc-arCoeff()-Z,2",FALSE,NA,NA,NA
+"V36","tBodyAcc-arCoeff()-Z,3",FALSE,NA,NA,NA
+"V37","tBodyAcc-arCoeff()-Z,4",FALSE,NA,NA,NA
+"V38","tBodyAcc-correlation()-X,Y",FALSE,NA,NA,NA
+"V39","tBodyAcc-correlation()-X,Z",FALSE,NA,NA,NA
+"V40","tBodyAcc-correlation()-Y,Z",FALSE,NA,NA,NA
+"V41","tGravityAcc-mean()-X",TRUE,"TimeGravityAccMeanX","Mean by Subject, Activity","MeanTimeGravityAccMeanX"
+"V42","tGravityAcc-mean()-Y",TRUE,"TimeGravityAccMeanY","Mean by Subject, Activity","MeanTimeGravityAccMeanY"
+"V43","tGravityAcc-mean()-Z",TRUE,"TimeGravityAccMeanZ","Mean by Subject, Activity","MeanTimeGravityAccMeanZ"
+"V44","tGravityAcc-std()-X",TRUE,"TimeGravityAccStdX","Mean by Subject, Activity","MeanTimeGravityAccStdX"
+"V45","tGravityAcc-std()-Y",TRUE,"TimeGravityAccStdY","Mean by Subject, Activity","MeanTimeGravityAccStdY"
+"V46","tGravityAcc-std()-Z",TRUE,"TimeGravityAccStdZ","Mean by Subject, Activity","MeanTimeGravityAccStdZ"
+"V47","tGravityAcc-mad()-X",FALSE,NA,NA,NA
+"V48","tGravityAcc-mad()-Y",FALSE,NA,NA,NA
+"V49","tGravityAcc-mad()-Z",FALSE,NA,NA,NA
+"V50","tGravityAcc-max()-X",FALSE,NA,NA,NA
+"V51","tGravityAcc-max()-Y",FALSE,NA,NA,NA
+"V52","tGravityAcc-max()-Z",FALSE,NA,NA,NA
+"V53","tGravityAcc-min()-X",FALSE,NA,NA,NA
+"V54","tGravityAcc-min()-Y",FALSE,NA,NA,NA
+"V55","tGravityAcc-min()-Z",FALSE,NA,NA,NA
+"V56","tGravityAcc-sma()",FALSE,NA,NA,NA
+"V57","tGravityAcc-energy()-X",FALSE,NA,NA,NA
+"V58","tGravityAcc-energy()-Y",FALSE,NA,NA,NA
+"V59","tGravityAcc-energy()-Z",FALSE,NA,NA,NA
+"V60","tGravityAcc-iqr()-X",FALSE,NA,NA,NA
+"V61","tGravityAcc-iqr()-Y",FALSE,NA,NA,NA
+"V62","tGravityAcc-iqr()-Z",FALSE,NA,NA,NA
+"V63","tGravityAcc-entropy()-X",FALSE,NA,NA,NA
+"V64","tGravityAcc-entropy()-Y",FALSE,NA,NA,NA
+"V65","tGravityAcc-entropy()-Z",FALSE,NA,NA,NA
+"V66","tGravityAcc-arCoeff()-X,1",FALSE,NA,NA,NA
+"V67","tGravityAcc-arCoeff()-X,2",FALSE,NA,NA,NA
+"V68","tGravityAcc-arCoeff()-X,3",FALSE,NA,NA,NA
+"V69","tGravityAcc-arCoeff()-X,4",FALSE,NA,NA,NA
+"V70","tGravityAcc-arCoeff()-Y,1",FALSE,NA,NA,NA
+"V71","tGravityAcc-arCoeff()-Y,2",FALSE,NA,NA,NA
+"V72","tGravityAcc-arCoeff()-Y,3",FALSE,NA,NA,NA
+"V73","tGravityAcc-arCoeff()-Y,4",FALSE,NA,NA,NA
+"V74","tGravityAcc-arCoeff()-Z,1",FALSE,NA,NA,NA
+"V75","tGravityAcc-arCoeff()-Z,2",FALSE,NA,NA,NA
+"V76","tGravityAcc-arCoeff()-Z,3",FALSE,NA,NA,NA
+"V77","tGravityAcc-arCoeff()-Z,4",FALSE,NA,NA,NA
+"V78","tGravityAcc-correlation()-X,Y",FALSE,NA,NA,NA
+"V79","tGravityAcc-correlation()-X,Z",FALSE,NA,NA,NA
+"V80","tGravityAcc-correlation()-Y,Z",FALSE,NA,NA,NA
+"V81","tBodyAccJerk-mean()-X",TRUE,"TimeBodyAccJerkMeanX","Mean by Subject, Activity","MeanTimeBodyAccJerkMeanX"
+"V82","tBodyAccJerk-mean()-Y",TRUE,"TimeBodyAccJerkMeanY","Mean by Subject, Activity","MeanTimeBodyAccJerkMeanY"
+"V83","tBodyAccJerk-mean()-Z",TRUE,"TimeBodyAccJerkMeanZ","Mean by Subject, Activity","MeanTimeBodyAccJerkMeanZ"
+"V84","tBodyAccJerk-std()-X",TRUE,"TimeBodyAccJerkStdX","Mean by Subject, Activity","MeanTimeBodyAccJerkStdX"
+"V85","tBodyAccJerk-std()-Y",TRUE,"TimeBodyAccJerkStdY","Mean by Subject, Activity","MeanTimeBodyAccJerkStdY"
+"V86","tBodyAccJerk-std()-Z",TRUE,"TimeBodyAccJerkStdZ","Mean by Subject, Activity","MeanTimeBodyAccJerkStdZ"
+"V87","tBodyAccJerk-mad()-X",FALSE,NA,NA,NA
+"V88","tBodyAccJerk-mad()-Y",FALSE,NA,NA,NA
+"V89","tBodyAccJerk-mad()-Z",FALSE,NA,NA,NA
+"V90","tBodyAccJerk-max()-X",FALSE,NA,NA,NA
+"V91","tBodyAccJerk-max()-Y",FALSE,NA,NA,NA
+"V92","tBodyAccJerk-max()-Z",FALSE,NA,NA,NA
+"V93","tBodyAccJerk-min()-X",FALSE,NA,NA,NA
+"V94","tBodyAccJerk-min()-Y",FALSE,NA,NA,NA
+"V95","tBodyAccJerk-min()-Z",FALSE,NA,NA,NA
+"V96","tBodyAccJerk-sma()",FALSE,NA,NA,NA
+"V97","tBodyAccJerk-energy()-X",FALSE,NA,NA,NA
+"V98","tBodyAccJerk-energy()-Y",FALSE,NA,NA,NA
+"V99","tBodyAccJerk-energy()-Z",FALSE,NA,NA,NA
+"V100","tBodyAccJerk-iqr()-X",FALSE,NA,NA,NA
+"V101","tBodyAccJerk-iqr()-Y",FALSE,NA,NA,NA
+"V102","tBodyAccJerk-iqr()-Z",FALSE,NA,NA,NA
+"V103","tBodyAccJerk-entropy()-X",FALSE,NA,NA,NA
+"V104","tBodyAccJerk-entropy()-Y",FALSE,NA,NA,NA
+"V105","tBodyAccJerk-entropy()-Z",FALSE,NA,NA,NA
+"V106","tBodyAccJerk-arCoeff()-X,1",FALSE,NA,NA,NA
+"V107","tBodyAccJerk-arCoeff()-X,2",FALSE,NA,NA,NA
+"V108","tBodyAccJerk-arCoeff()-X,3",FALSE,NA,NA,NA
+"V109","tBodyAccJerk-arCoeff()-X,4",FALSE,NA,NA,NA
+"V110","tBodyAccJerk-arCoeff()-Y,1",FALSE,NA,NA,NA
+"V111","tBodyAccJerk-arCoeff()-Y,2",FALSE,NA,NA,NA
+"V112","tBodyAccJerk-arCoeff()-Y,3",FALSE,NA,NA,NA
+"V113","tBodyAccJerk-arCoeff()-Y,4",FALSE,NA,NA,NA
+"V114","tBodyAccJerk-arCoeff()-Z,1",FALSE,NA,NA,NA
+"V115","tBodyAccJerk-arCoeff()-Z,2",FALSE,NA,NA,NA
+"V116","tBodyAccJerk-arCoeff()-Z,3",FALSE,NA,NA,NA
+"V117","tBodyAccJerk-arCoeff()-Z,4",FALSE,NA,NA,NA
+"V118","tBodyAccJerk-correlation()-X,Y",FALSE,NA,NA,NA
+"V119","tBodyAccJerk-correlation()-X,Z",FALSE,NA,NA,NA
+"V120","tBodyAccJerk-correlation()-Y,Z",FALSE,NA,NA,NA
+"V121","tBodyGyro-mean()-X",TRUE,"TimeBodyGyroMeanX","Mean by Subject, Activity","MeanTimeBodyGyroMeanX"
+"V122","tBodyGyro-mean()-Y",TRUE,"TimeBodyGyroMeanY","Mean by Subject, Activity","MeanTimeBodyGyroMeanY"
+"V123","tBodyGyro-mean()-Z",TRUE,"TimeBodyGyroMeanZ","Mean by Subject, Activity","MeanTimeBodyGyroMeanZ"
+"V124","tBodyGyro-std()-X",TRUE,"TimeBodyGyroStdX","Mean by Subject, Activity","MeanTimeBodyGyroStdX"
+"V125","tBodyGyro-std()-Y",TRUE,"TimeBodyGyroStdY","Mean by Subject, Activity","MeanTimeBodyGyroStdY"
+"V126","tBodyGyro-std()-Z",TRUE,"TimeBodyGyroStdZ","Mean by Subject, Activity","MeanTimeBodyGyroStdZ"
+"V127","tBodyGyro-mad()-X",FALSE,NA,NA,NA
+"V128","tBodyGyro-mad()-Y",FALSE,NA,NA,NA
+"V129","tBodyGyro-mad()-Z",FALSE,NA,NA,NA
+"V130","tBodyGyro-max()-X",FALSE,NA,NA,NA
+"V131","tBodyGyro-max()-Y",FALSE,NA,NA,NA
+"V132","tBodyGyro-max()-Z",FALSE,NA,NA,NA
+"V133","tBodyGyro-min()-X",FALSE,NA,NA,NA
+"V134","tBodyGyro-min()-Y",FALSE,NA,NA,NA
+"V135","tBodyGyro-min()-Z",FALSE,NA,NA,NA
+"V136","tBodyGyro-sma()",FALSE,NA,NA,NA
+"V137","tBodyGyro-energy()-X",FALSE,NA,NA,NA
+"V138","tBodyGyro-energy()-Y",FALSE,NA,NA,NA
+"V139","tBodyGyro-energy()-Z",FALSE,NA,NA,NA
+"V140","tBodyGyro-iqr()-X",FALSE,NA,NA,NA
+"V141","tBodyGyro-iqr()-Y",FALSE,NA,NA,NA
+"V142","tBodyGyro-iqr()-Z",FALSE,NA,NA,NA
+"V143","tBodyGyro-entropy()-X",FALSE,NA,NA,NA
+"V144","tBodyGyro-entropy()-Y",FALSE,NA,NA,NA
+"V145","tBodyGyro-entropy()-Z",FALSE,NA,NA,NA
+"V146","tBodyGyro-arCoeff()-X,1",FALSE,NA,NA,NA
+"V147","tBodyGyro-arCoeff()-X,2",FALSE,NA,NA,NA
+"V148","tBodyGyro-arCoeff()-X,3",FALSE,NA,NA,NA
+"V149","tBodyGyro-arCoeff()-X,4",FALSE,NA,NA,NA
+"V150","tBodyGyro-arCoeff()-Y,1",FALSE,NA,NA,NA
+"V151","tBodyGyro-arCoeff()-Y,2",FALSE,NA,NA,NA
+"V152","tBodyGyro-arCoeff()-Y,3",FALSE,NA,NA,NA
+"V153","tBodyGyro-arCoeff()-Y,4",FALSE,NA,NA,NA
+"V154","tBodyGyro-arCoeff()-Z,1",FALSE,NA,NA,NA
+"V155","tBodyGyro-arCoeff()-Z,2",FALSE,NA,NA,NA
+"V156","tBodyGyro-arCoeff()-Z,3",FALSE,NA,NA,NA
+"V157","tBodyGyro-arCoeff()-Z,4",FALSE,NA,NA,NA
+"V158","tBodyGyro-correlation()-X,Y",FALSE,NA,NA,NA
+"V159","tBodyGyro-correlation()-X,Z",FALSE,NA,NA,NA
+"V160","tBodyGyro-correlation()-Y,Z",FALSE,NA,NA,NA
+"V161","tBodyGyroJerk-mean()-X",TRUE,"TimeBodyGyroJerkMeanX","Mean by Subject, Activity","MeanTimeBodyGyroJerkMeanX"
+"V162","tBodyGyroJerk-mean()-Y",TRUE,"TimeBodyGyroJerkMeanY","Mean by Subject, Activity","MeanTimeBodyGyroJerkMeanY"
+"V163","tBodyGyroJerk-mean()-Z",TRUE,"TimeBodyGyroJerkMeanZ","Mean by Subject, Activity","MeanTimeBodyGyroJerkMeanZ"
+"V164","tBodyGyroJerk-std()-X",TRUE,"TimeBodyGyroJerkStdX","Mean by Subject, Activity","MeanTimeBodyGyroJerkStdX"
+"V165","tBodyGyroJerk-std()-Y",TRUE,"TimeBodyGyroJerkStdY","Mean by Subject, Activity","MeanTimeBodyGyroJerkStdY"
+"V166","tBodyGyroJerk-std()-Z",TRUE,"TimeBodyGyroJerkStdZ","Mean by Subject, Activity","MeanTimeBodyGyroJerkStdZ"
+"V167","tBodyGyroJerk-mad()-X",FALSE,NA,NA,NA
+"V168","tBodyGyroJerk-mad()-Y",FALSE,NA,NA,NA
+"V169","tBodyGyroJerk-mad()-Z",FALSE,NA,NA,NA
+"V170","tBodyGyroJerk-max()-X",FALSE,NA,NA,NA
+"V171","tBodyGyroJerk-max()-Y",FALSE,NA,NA,NA
+"V172","tBodyGyroJerk-max()-Z",FALSE,NA,NA,NA
+"V173","tBodyGyroJerk-min()-X",FALSE,NA,NA,NA
+"V174","tBodyGyroJerk-min()-Y",FALSE,NA,NA,NA
+"V175","tBodyGyroJerk-min()-Z",FALSE,NA,NA,NA
+"V176","tBodyGyroJerk-sma()",FALSE,NA,NA,NA
+"V177","tBodyGyroJerk-energy()-X",FALSE,NA,NA,NA
+"V178","tBodyGyroJerk-energy()-Y",FALSE,NA,NA,NA
+"V179","tBodyGyroJerk-energy()-Z",FALSE,NA,NA,NA
+"V180","tBodyGyroJerk-iqr()-X",FALSE,NA,NA,NA
+"V181","tBodyGyroJerk-iqr()-Y",FALSE,NA,NA,NA
+"V182","tBodyGyroJerk-iqr()-Z",FALSE,NA,NA,NA
+"V183","tBodyGyroJerk-entropy()-X",FALSE,NA,NA,NA
+"V184","tBodyGyroJerk-entropy()-Y",FALSE,NA,NA,NA
+"V185","tBodyGyroJerk-entropy()-Z",FALSE,NA,NA,NA
+"V186","tBodyGyroJerk-arCoeff()-X,1",FALSE,NA,NA,NA
+"V187","tBodyGyroJerk-arCoeff()-X,2",FALSE,NA,NA,NA
+"V188","tBodyGyroJerk-arCoeff()-X,3",FALSE,NA,NA,NA
+"V189","tBodyGyroJerk-arCoeff()-X,4",FALSE,NA,NA,NA
+"V190","tBodyGyroJerk-arCoeff()-Y,1",FALSE,NA,NA,NA
+"V191","tBodyGyroJerk-arCoeff()-Y,2",FALSE,NA,NA,NA
+"V192","tBodyGyroJerk-arCoeff()-Y,3",FALSE,NA,NA,NA
+"V193","tBodyGyroJerk-arCoeff()-Y,4",FALSE,NA,NA,NA
+"V194","tBodyGyroJerk-arCoeff()-Z,1",FALSE,NA,NA,NA
+"V195","tBodyGyroJerk-arCoeff()-Z,2",FALSE,NA,NA,NA
+"V196","tBodyGyroJerk-arCoeff()-Z,3",FALSE,NA,NA,NA
+"V197","tBodyGyroJerk-arCoeff()-Z,4",FALSE,NA,NA,NA
+"V198","tBodyGyroJerk-correlation()-X,Y",FALSE,NA,NA,NA
+"V199","tBodyGyroJerk-correlation()-X,Z",FALSE,NA,NA,NA
+"V200","tBodyGyroJerk-correlation()-Y,Z",FALSE,NA,NA,NA
+"V201","tBodyAccMag-mean()",TRUE,"TimeBodyAccMagMean","Mean by Subject, Activity","MeanTimeBodyAccMagMean"
+"V202","tBodyAccMag-std()",TRUE,"TimeBodyAccMagStd","Mean by Subject, Activity","MeanTimeBodyAccMagStd"
+"V203","tBodyAccMag-mad()",FALSE,NA,NA,NA
+"V204","tBodyAccMag-max()",FALSE,NA,NA,NA
+"V205","tBodyAccMag-min()",FALSE,NA,NA,NA
+"V206","tBodyAccMag-sma()",FALSE,NA,NA,NA
+"V207","tBodyAccMag-energy()",FALSE,NA,NA,NA
+"V208","tBodyAccMag-iqr()",FALSE,NA,NA,NA
+"V209","tBodyAccMag-entropy()",FALSE,NA,NA,NA
+"V210","tBodyAccMag-arCoeff()1",FALSE,NA,NA,NA
+"V211","tBodyAccMag-arCoeff()2",FALSE,NA,NA,NA
+"V212","tBodyAccMag-arCoeff()3",FALSE,NA,NA,NA
+"V213","tBodyAccMag-arCoeff()4",FALSE,NA,NA,NA
+"V214","tGravityAccMag-mean()",TRUE,"TimeGravityAccMagMean","Mean by Subject, Activity","MeanTimeGravityAccMagMean"
+"V215","tGravityAccMag-std()",TRUE,"TimeGravityAccMagStd","Mean by Subject, Activity","MeanTimeGravityAccMagStd"
+"V216","tGravityAccMag-mad()",FALSE,NA,NA,NA
+"V217","tGravityAccMag-max()",FALSE,NA,NA,NA
+"V218","tGravityAccMag-min()",FALSE,NA,NA,NA
+"V219","tGravityAccMag-sma()",FALSE,NA,NA,NA
+"V220","tGravityAccMag-energy()",FALSE,NA,NA,NA
+"V221","tGravityAccMag-iqr()",FALSE,NA,NA,NA
+"V222","tGravityAccMag-entropy()",FALSE,NA,NA,NA
+"V223","tGravityAccMag-arCoeff()1",FALSE,NA,NA,NA
+"V224","tGravityAccMag-arCoeff()2",FALSE,NA,NA,NA
+"V225","tGravityAccMag-arCoeff()3",FALSE,NA,NA,NA
+"V226","tGravityAccMag-arCoeff()4",FALSE,NA,NA,NA
+"V227","tBodyAccJerkMag-mean()",TRUE,"TimeBodyAccJerkMagMean","Mean by Subject, Activity","MeanTimeBodyAccJerkMagMean"
+"V228","tBodyAccJerkMag-std()",TRUE,"TimeBodyAccJerkMagStd","Mean by Subject, Activity","MeanTimeBodyAccJerkMagStd"
+"V229","tBodyAccJerkMag-mad()",FALSE,NA,NA,NA
+"V230","tBodyAccJerkMag-max()",FALSE,NA,NA,NA
+"V231","tBodyAccJerkMag-min()",FALSE,NA,NA,NA
+"V232","tBodyAccJerkMag-sma()",FALSE,NA,NA,NA
+"V233","tBodyAccJerkMag-energy()",FALSE,NA,NA,NA
+"V234","tBodyAccJerkMag-iqr()",FALSE,NA,NA,NA
+"V235","tBodyAccJerkMag-entropy()",FALSE,NA,NA,NA
+"V236","tBodyAccJerkMag-arCoeff()1",FALSE,NA,NA,NA
+"V237","tBodyAccJerkMag-arCoeff()2",FALSE,NA,NA,NA
+"V238","tBodyAccJerkMag-arCoeff()3",FALSE,NA,NA,NA
+"V239","tBodyAccJerkMag-arCoeff()4",FALSE,NA,NA,NA
+"V240","tBodyGyroMag-mean()",TRUE,"TimeBodyGyroMagMean","Mean by Subject, Activity","MeanTimeBodyGyroMagMean"
+"V241","tBodyGyroMag-std()",TRUE,"TimeBodyGyroMagStd","Mean by Subject, Activity","MeanTimeBodyGyroMagStd"
+"V242","tBodyGyroMag-mad()",FALSE,NA,NA,NA
+"V243","tBodyGyroMag-max()",FALSE,NA,NA,NA
+"V244","tBodyGyroMag-min()",FALSE,NA,NA,NA
+"V245","tBodyGyroMag-sma()",FALSE,NA,NA,NA
+"V246","tBodyGyroMag-energy()",FALSE,NA,NA,NA
+"V247","tBodyGyroMag-iqr()",FALSE,NA,NA,NA
+"V248","tBodyGyroMag-entropy()",FALSE,NA,NA,NA
+"V249","tBodyGyroMag-arCoeff()1",FALSE,NA,NA,NA
+"V250","tBodyGyroMag-arCoeff()2",FALSE,NA,NA,NA
+"V251","tBodyGyroMag-arCoeff()3",FALSE,NA,NA,NA
+"V252","tBodyGyroMag-arCoeff()4",FALSE,NA,NA,NA
+"V253","tBodyGyroJerkMag-mean()",TRUE,"TimeBodyGyroJerkMagMean","Mean by Subject, Activity","MeanTimeBodyGyroJerkMagMean"
+"V254","tBodyGyroJerkMag-std()",TRUE,"TimeBodyGyroJerkMagStd","Mean by Subject, Activity","MeanTimeBodyGyroJerkMagStd"
+"V255","tBodyGyroJerkMag-mad()",FALSE,NA,NA,NA
+"V256","tBodyGyroJerkMag-max()",FALSE,NA,NA,NA
+"V257","tBodyGyroJerkMag-min()",FALSE,NA,NA,NA
+"V258","tBodyGyroJerkMag-sma()",FALSE,NA,NA,NA
+"V259","tBodyGyroJerkMag-energy()",FALSE,NA,NA,NA
+"V260","tBodyGyroJerkMag-iqr()",FALSE,NA,NA,NA
+"V261","tBodyGyroJerkMag-entropy()",FALSE,NA,NA,NA
+"V262","tBodyGyroJerkMag-arCoeff()1",FALSE,NA,NA,NA
+"V263","tBodyGyroJerkMag-arCoeff()2",FALSE,NA,NA,NA
+"V264","tBodyGyroJerkMag-arCoeff()3",FALSE,NA,NA,NA
+"V265","tBodyGyroJerkMag-arCoeff()4",FALSE,NA,NA,NA
+"V266","fBodyAcc-mean()-X",TRUE,"FreqBodyAccMeanX","Mean by Subject, Activity","MeanFreqBodyAccMeanX"
+"V267","fBodyAcc-mean()-Y",TRUE,"FreqBodyAccMeanY","Mean by Subject, Activity","MeanFreqBodyAccMeanY"
+"V268","fBodyAcc-mean()-Z",TRUE,"FreqBodyAccMeanZ","Mean by Subject, Activity","MeanFreqBodyAccMeanZ"
+"V269","fBodyAcc-std()-X",TRUE,"FreqBodyAccStdX","Mean by Subject, Activity","MeanFreqBodyAccStdX"
+"V270","fBodyAcc-std()-Y",TRUE,"FreqBodyAccStdY","Mean by Subject, Activity","MeanFreqBodyAccStdY"
+"V271","fBodyAcc-std()-Z",TRUE,"FreqBodyAccStdZ","Mean by Subject, Activity","MeanFreqBodyAccStdZ"
+"V272","fBodyAcc-mad()-X",FALSE,NA,NA,NA
+"V273","fBodyAcc-mad()-Y",FALSE,NA,NA,NA
+"V274","fBodyAcc-mad()-Z",FALSE,NA,NA,NA
+"V275","fBodyAcc-max()-X",FALSE,NA,NA,NA
+"V276","fBodyAcc-max()-Y",FALSE,NA,NA,NA
+"V277","fBodyAcc-max()-Z",FALSE,NA,NA,NA
+"V278","fBodyAcc-min()-X",FALSE,NA,NA,NA
+"V279","fBodyAcc-min()-Y",FALSE,NA,NA,NA
+"V280","fBodyAcc-min()-Z",FALSE,NA,NA,NA
+"V281","fBodyAcc-sma()",FALSE,NA,NA,NA
+"V282","fBodyAcc-energy()-X",FALSE,NA,NA,NA
+"V283","fBodyAcc-energy()-Y",FALSE,NA,NA,NA
+"V284","fBodyAcc-energy()-Z",FALSE,NA,NA,NA
+"V285","fBodyAcc-iqr()-X",FALSE,NA,NA,NA
+"V286","fBodyAcc-iqr()-Y",FALSE,NA,NA,NA
+"V287","fBodyAcc-iqr()-Z",FALSE,NA,NA,NA
+"V288","fBodyAcc-entropy()-X",FALSE,NA,NA,NA
+"V289","fBodyAcc-entropy()-Y",FALSE,NA,NA,NA
+"V290","fBodyAcc-entropy()-Z",FALSE,NA,NA,NA
+"V291","fBodyAcc-maxInds-X",FALSE,NA,NA,NA
+"V292","fBodyAcc-maxInds-Y",FALSE,NA,NA,NA
+"V293","fBodyAcc-maxInds-Z",FALSE,NA,NA,NA
+"V294","fBodyAcc-meanFreq()-X",FALSE,NA,NA,NA
+"V295","fBodyAcc-meanFreq()-Y",FALSE,NA,NA,NA
+"V296","fBodyAcc-meanFreq()-Z",FALSE,NA,NA,NA
+"V297","fBodyAcc-skewness()-X",FALSE,NA,NA,NA
+"V298","fBodyAcc-kurtosis()-X",FALSE,NA,NA,NA
+"V299","fBodyAcc-skewness()-Y",FALSE,NA,NA,NA
+"V300","fBodyAcc-kurtosis()-Y",FALSE,NA,NA,NA
+"V301","fBodyAcc-skewness()-Z",FALSE,NA,NA,NA
+"V302","fBodyAcc-kurtosis()-Z",FALSE,NA,NA,NA
+"V303","fBodyAcc-bandsEnergy()-1,8",FALSE,NA,NA,NA
+"V304","fBodyAcc-bandsEnergy()-9,16",FALSE,NA,NA,NA
+"V305","fBodyAcc-bandsEnergy()-17,24",FALSE,NA,NA,NA
+"V306","fBodyAcc-bandsEnergy()-25,32",FALSE,NA,NA,NA
+"V307","fBodyAcc-bandsEnergy()-33,40",FALSE,NA,NA,NA
+"V308","fBodyAcc-bandsEnergy()-41,48",FALSE,NA,NA,NA
+"V309","fBodyAcc-bandsEnergy()-49,56",FALSE,NA,NA,NA
+"V310","fBodyAcc-bandsEnergy()-57,64",FALSE,NA,NA,NA
+"V311","fBodyAcc-bandsEnergy()-1,16",FALSE,NA,NA,NA
+"V312","fBodyAcc-bandsEnergy()-17,32",FALSE,NA,NA,NA
+"V313","fBodyAcc-bandsEnergy()-33,48",FALSE,NA,NA,NA
+"V314","fBodyAcc-bandsEnergy()-49,64",FALSE,NA,NA,NA
+"V315","fBodyAcc-bandsEnergy()-1,24",FALSE,NA,NA,NA
+"V316","fBodyAcc-bandsEnergy()-25,48",FALSE,NA,NA,NA
+"V317","fBodyAcc-bandsEnergy()-1,8",FALSE,NA,NA,NA
+"V318","fBodyAcc-bandsEnergy()-9,16",FALSE,NA,NA,NA
+"V319","fBodyAcc-bandsEnergy()-17,24",FALSE,NA,NA,NA
+"V320","fBodyAcc-bandsEnergy()-25,32",FALSE,NA,NA,NA
+"V321","fBodyAcc-bandsEnergy()-33,40",FALSE,NA,NA,NA
+"V322","fBodyAcc-bandsEnergy()-41,48",FALSE,NA,NA,NA
+"V323","fBodyAcc-bandsEnergy()-49,56",FALSE,NA,NA,NA
+"V324","fBodyAcc-bandsEnergy()-57,64",FALSE,NA,NA,NA
+"V325","fBodyAcc-bandsEnergy()-1,16",FALSE,NA,NA,NA
+"V326","fBodyAcc-bandsEnergy()-17,32",FALSE,NA,NA,NA
+"V327","fBodyAcc-bandsEnergy()-33,48",FALSE,NA,NA,NA
+"V328","fBodyAcc-bandsEnergy()-49,64",FALSE,NA,NA,NA
+"V329","fBodyAcc-bandsEnergy()-1,24",FALSE,NA,NA,NA
+"V330","fBodyAcc-bandsEnergy()-25,48",FALSE,NA,NA,NA
+"V331","fBodyAcc-bandsEnergy()-1,8",FALSE,NA,NA,NA
+"V332","fBodyAcc-bandsEnergy()-9,16",FALSE,NA,NA,NA
+"V333","fBodyAcc-bandsEnergy()-17,24",FALSE,NA,NA,NA
+"V334","fBodyAcc-bandsEnergy()-25,32",FALSE,NA,NA,NA
+"V335","fBodyAcc-bandsEnergy()-33,40",FALSE,NA,NA,NA
+"V336","fBodyAcc-bandsEnergy()-41,48",FALSE,NA,NA,NA
+"V337","fBodyAcc-bandsEnergy()-49,56",FALSE,NA,NA,NA
+"V338","fBodyAcc-bandsEnergy()-57,64",FALSE,NA,NA,NA
+"V339","fBodyAcc-bandsEnergy()-1,16",FALSE,NA,NA,NA
+"V340","fBodyAcc-bandsEnergy()-17,32",FALSE,NA,NA,NA
+"V341","fBodyAcc-bandsEnergy()-33,48",FALSE,NA,NA,NA
+"V342","fBodyAcc-bandsEnergy()-49,64",FALSE,NA,NA,NA
+"V343","fBodyAcc-bandsEnergy()-1,24",FALSE,NA,NA,NA
+"V344","fBodyAcc-bandsEnergy()-25,48",FALSE,NA,NA,NA
+"V345","fBodyAccJerk-mean()-X",TRUE,"FreqBodyAccJerkMeanX","Mean by Subject, Activity","MeanFreqBodyAccJerkMeanX"
+"V346","fBodyAccJerk-mean()-Y",TRUE,"FreqBodyAccJerkMeanY","Mean by Subject, Activity","MeanFreqBodyAccJerkMeanY"
+"V347","fBodyAccJerk-mean()-Z",TRUE,"FreqBodyAccJerkMeanZ","Mean by Subject, Activity","MeanFreqBodyAccJerkMeanZ"
+"V348","fBodyAccJerk-std()-X",TRUE,"FreqBodyAccJerkStdX","Mean by Subject, Activity","MeanFreqBodyAccJerkStdX"
+"V349","fBodyAccJerk-std()-Y",TRUE,"FreqBodyAccJerkStdY","Mean by Subject, Activity","MeanFreqBodyAccJerkStdY"
+"V350","fBodyAccJerk-std()-Z",TRUE,"FreqBodyAccJerkStdZ","Mean by Subject, Activity","MeanFreqBodyAccJerkStdZ"
+"V351","fBodyAccJerk-mad()-X",FALSE,NA,NA,NA
+"V352","fBodyAccJerk-mad()-Y",FALSE,NA,NA,NA
+"V353","fBodyAccJerk-mad()-Z",FALSE,NA,NA,NA
+"V354","fBodyAccJerk-max()-X",FALSE,NA,NA,NA
+"V355","fBodyAccJerk-max()-Y",FALSE,NA,NA,NA
+"V356","fBodyAccJerk-max()-Z",FALSE,NA,NA,NA
+"V357","fBodyAccJerk-min()-X",FALSE,NA,NA,NA
+"V358","fBodyAccJerk-min()-Y",FALSE,NA,NA,NA
+"V359","fBodyAccJerk-min()-Z",FALSE,NA,NA,NA
+"V360","fBodyAccJerk-sma()",FALSE,NA,NA,NA
+"V361","fBodyAccJerk-energy()-X",FALSE,NA,NA,NA
+"V362","fBodyAccJerk-energy()-Y",FALSE,NA,NA,NA
+"V363","fBodyAccJerk-energy()-Z",FALSE,NA,NA,NA
+"V364","fBodyAccJerk-iqr()-X",FALSE,NA,NA,NA
+"V365","fBodyAccJerk-iqr()-Y",FALSE,NA,NA,NA
+"V366","fBodyAccJerk-iqr()-Z",FALSE,NA,NA,NA
+"V367","fBodyAccJerk-entropy()-X",FALSE,NA,NA,NA
+"V368","fBodyAccJerk-entropy()-Y",FALSE,NA,NA,NA
+"V369","fBodyAccJerk-entropy()-Z",FALSE,NA,NA,NA
+"V370","fBodyAccJerk-maxInds-X",FALSE,NA,NA,NA
+"V371","fBodyAccJerk-maxInds-Y",FALSE,NA,NA,NA
+"V372","fBodyAccJerk-maxInds-Z",FALSE,NA,NA,NA
+"V373","fBodyAccJerk-meanFreq()-X",FALSE,NA,NA,NA
+"V374","fBodyAccJerk-meanFreq()-Y",FALSE,NA,NA,NA
+"V375","fBodyAccJerk-meanFreq()-Z",FALSE,NA,NA,NA
+"V376","fBodyAccJerk-skewness()-X",FALSE,NA,NA,NA
+"V377","fBodyAccJerk-kurtosis()-X",FALSE,NA,NA,NA
+"V378","fBodyAccJerk-skewness()-Y",FALSE,NA,NA,NA
+"V379","fBodyAccJerk-kurtosis()-Y",FALSE,NA,NA,NA
+"V380","fBodyAccJerk-skewness()-Z",FALSE,NA,NA,NA
+"V381","fBodyAccJerk-kurtosis()-Z",FALSE,NA,NA,NA
+"V382","fBodyAccJerk-bandsEnergy()-1,8",FALSE,NA,NA,NA
+"V383","fBodyAccJerk-bandsEnergy()-9,16",FALSE,NA,NA,NA
+"V384","fBodyAccJerk-bandsEnergy()-17,24",FALSE,NA,NA,NA
+"V385","fBodyAccJerk-bandsEnergy()-25,32",FALSE,NA,NA,NA
+"V386","fBodyAccJerk-bandsEnergy()-33,40",FALSE,NA,NA,NA
+"V387","fBodyAccJerk-bandsEnergy()-41,48",FALSE,NA,NA,NA
+"V388","fBodyAccJerk-bandsEnergy()-49,56",FALSE,NA,NA,NA
+"V389","fBodyAccJerk-bandsEnergy()-57,64",FALSE,NA,NA,NA
+"V390","fBodyAccJerk-bandsEnergy()-1,16",FALSE,NA,NA,NA
+"V391","fBodyAccJerk-bandsEnergy()-17,32",FALSE,NA,NA,NA
+"V392","fBodyAccJerk-bandsEnergy()-33,48",FALSE,NA,NA,NA
+"V393","fBodyAccJerk-bandsEnergy()-49,64",FALSE,NA,NA,NA
+"V394","fBodyAccJerk-bandsEnergy()-1,24",FALSE,NA,NA,NA
+"V395","fBodyAccJerk-bandsEnergy()-25,48",FALSE,NA,NA,NA
+"V396","fBodyAccJerk-bandsEnergy()-1,8",FALSE,NA,NA,NA
+"V397","fBodyAccJerk-bandsEnergy()-9,16",FALSE,NA,NA,NA
+"V398","fBodyAccJerk-bandsEnergy()-17,24",FALSE,NA,NA,NA
+"V399","fBodyAccJerk-bandsEnergy()-25,32",FALSE,NA,NA,NA
+"V400","fBodyAccJerk-bandsEnergy()-33,40",FALSE,NA,NA,NA
+"V401","fBodyAccJerk-bandsEnergy()-41,48",FALSE,NA,NA,NA
+"V402","fBodyAccJerk-bandsEnergy()-49,56",FALSE,NA,NA,NA
+"V403","fBodyAccJerk-bandsEnergy()-57,64",FALSE,NA,NA,NA
+"V404","fBodyAccJerk-bandsEnergy()-1,16",FALSE,NA,NA,NA
+"V405","fBodyAccJerk-bandsEnergy()-17,32",FALSE,NA,NA,NA
+"V406","fBodyAccJerk-bandsEnergy()-33,48",FALSE,NA,NA,NA
+"V407","fBodyAccJerk-bandsEnergy()-49,64",FALSE,NA,NA,NA
+"V408","fBodyAccJerk-bandsEnergy()-1,24",FALSE,NA,NA,NA
+"V409","fBodyAccJerk-bandsEnergy()-25,48",FALSE,NA,NA,NA
+"V410","fBodyAccJerk-bandsEnergy()-1,8",FALSE,NA,NA,NA
+"V411","fBodyAccJerk-bandsEnergy()-9,16",FALSE,NA,NA,NA
+"V412","fBodyAccJerk-bandsEnergy()-17,24",FALSE,NA,NA,NA
+"V413","fBodyAccJerk-bandsEnergy()-25,32",FALSE,NA,NA,NA
+"V414","fBodyAccJerk-bandsEnergy()-33,40",FALSE,NA,NA,NA
+"V415","fBodyAccJerk-bandsEnergy()-41,48",FALSE,NA,NA,NA
+"V416","fBodyAccJerk-bandsEnergy()-49,56",FALSE,NA,NA,NA
+"V417","fBodyAccJerk-bandsEnergy()-57,64",FALSE,NA,NA,NA
+"V418","fBodyAccJerk-bandsEnergy()-1,16",FALSE,NA,NA,NA
+"V419","fBodyAccJerk-bandsEnergy()-17,32",FALSE,NA,NA,NA
+"V420","fBodyAccJerk-bandsEnergy()-33,48",FALSE,NA,NA,NA
+"V421","fBodyAccJerk-bandsEnergy()-49,64",FALSE,NA,NA,NA
+"V422","fBodyAccJerk-bandsEnergy()-1,24",FALSE,NA,NA,NA
+"V423","fBodyAccJerk-bandsEnergy()-25,48",FALSE,NA,NA,NA
+"V424","fBodyGyro-mean()-X",TRUE,"FreqBodyGyroMeanX","Mean by Subject, Activity","MeanFreqBodyGyroMeanX"
+"V425","fBodyGyro-mean()-Y",TRUE,"FreqBodyGyroMeanY","Mean by Subject, Activity","MeanFreqBodyGyroMeanY"
+"V426","fBodyGyro-mean()-Z",TRUE,"FreqBodyGyroMeanZ","Mean by Subject, Activity","MeanFreqBodyGyroMeanZ"
+"V427","fBodyGyro-std()-X",TRUE,"FreqBodyGyroStdX","Mean by Subject, Activity","MeanFreqBodyGyroStdX"
+"V428","fBodyGyro-std()-Y",TRUE,"FreqBodyGyroStdY","Mean by Subject, Activity","MeanFreqBodyGyroStdY"
+"V429","fBodyGyro-std()-Z",TRUE,"FreqBodyGyroStdZ","Mean by Subject, Activity","MeanFreqBodyGyroStdZ"
+"V430","fBodyGyro-mad()-X",FALSE,NA,NA,NA
+"V431","fBodyGyro-mad()-Y",FALSE,NA,NA,NA
+"V432","fBodyGyro-mad()-Z",FALSE,NA,NA,NA
+"V433","fBodyGyro-max()-X",FALSE,NA,NA,NA
+"V434","fBodyGyro-max()-Y",FALSE,NA,NA,NA
+"V435","fBodyGyro-max()-Z",FALSE,NA,NA,NA
+"V436","fBodyGyro-min()-X",FALSE,NA,NA,NA
+"V437","fBodyGyro-min()-Y",FALSE,NA,NA,NA
+"V438","fBodyGyro-min()-Z",FALSE,NA,NA,NA
+"V439","fBodyGyro-sma()",FALSE,NA,NA,NA
+"V440","fBodyGyro-energy()-X",FALSE,NA,NA,NA
+"V441","fBodyGyro-energy()-Y",FALSE,NA,NA,NA
+"V442","fBodyGyro-energy()-Z",FALSE,NA,NA,NA
+"V443","fBodyGyro-iqr()-X",FALSE,NA,NA,NA
+"V444","fBodyGyro-iqr()-Y",FALSE,NA,NA,NA
+"V445","fBodyGyro-iqr()-Z",FALSE,NA,NA,NA
+"V446","fBodyGyro-entropy()-X",FALSE,NA,NA,NA
+"V447","fBodyGyro-entropy()-Y",FALSE,NA,NA,NA
+"V448","fBodyGyro-entropy()-Z",FALSE,NA,NA,NA
+"V449","fBodyGyro-maxInds-X",FALSE,NA,NA,NA
+"V450","fBodyGyro-maxInds-Y",FALSE,NA,NA,NA
+"V451","fBodyGyro-maxInds-Z",FALSE,NA,NA,NA
+"V452","fBodyGyro-meanFreq()-X",FALSE,NA,NA,NA
+"V453","fBodyGyro-meanFreq()-Y",FALSE,NA,NA,NA
+"V454","fBodyGyro-meanFreq()-Z",FALSE,NA,NA,NA
+"V455","fBodyGyro-skewness()-X",FALSE,NA,NA,NA
+"V456","fBodyGyro-kurtosis()-X",FALSE,NA,NA,NA
+"V457","fBodyGyro-skewness()-Y",FALSE,NA,NA,NA
+"V458","fBodyGyro-kurtosis()-Y",FALSE,NA,NA,NA
+"V459","fBodyGyro-skewness()-Z",FALSE,NA,NA,NA
+"V460","fBodyGyro-kurtosis()-Z",FALSE,NA,NA,NA
+"V461","fBodyGyro-bandsEnergy()-1,8",FALSE,NA,NA,NA
+"V462","fBodyGyro-bandsEnergy()-9,16",FALSE,NA,NA,NA
+"V463","fBodyGyro-bandsEnergy()-17,24",FALSE,NA,NA,NA
+"V464","fBodyGyro-bandsEnergy()-25,32",FALSE,NA,NA,NA
+"V465","fBodyGyro-bandsEnergy()-33,40",FALSE,NA,NA,NA
+"V466","fBodyGyro-bandsEnergy()-41,48",FALSE,NA,NA,NA
+"V467","fBodyGyro-bandsEnergy()-49,56",FALSE,NA,NA,NA
+"V468","fBodyGyro-bandsEnergy()-57,64",FALSE,NA,NA,NA
+"V469","fBodyGyro-bandsEnergy()-1,16",FALSE,NA,NA,NA
+"V470","fBodyGyro-bandsEnergy()-17,32",FALSE,NA,NA,NA
+"V471","fBodyGyro-bandsEnergy()-33,48",FALSE,NA,NA,NA
+"V472","fBodyGyro-bandsEnergy()-49,64",FALSE,NA,NA,NA
+"V473","fBodyGyro-bandsEnergy()-1,24",FALSE,NA,NA,NA
+"V474","fBodyGyro-bandsEnergy()-25,48",FALSE,NA,NA,NA
+"V475","fBodyGyro-bandsEnergy()-1,8",FALSE,NA,NA,NA
+"V476","fBodyGyro-bandsEnergy()-9,16",FALSE,NA,NA,NA
+"V477","fBodyGyro-bandsEnergy()-17,24",FALSE,NA,NA,NA
+"V478","fBodyGyro-bandsEnergy()-25,32",FALSE,NA,NA,NA
+"V479","fBodyGyro-bandsEnergy()-33,40",FALSE,NA,NA,NA
+"V480","fBodyGyro-bandsEnergy()-41,48",FALSE,NA,NA,NA
+"V481","fBodyGyro-bandsEnergy()-49,56",FALSE,NA,NA,NA
+"V482","fBodyGyro-bandsEnergy()-57,64",FALSE,NA,NA,NA
+"V483","fBodyGyro-bandsEnergy()-1,16",FALSE,NA,NA,NA
+"V484","fBodyGyro-bandsEnergy()-17,32",FALSE,NA,NA,NA
+"V485","fBodyGyro-bandsEnergy()-33,48",FALSE,NA,NA,NA
+"V486","fBodyGyro-bandsEnergy()-49,64",FALSE,NA,NA,NA
+"V487","fBodyGyro-bandsEnergy()-1,24",FALSE,NA,NA,NA
+"V488","fBodyGyro-bandsEnergy()-25,48",FALSE,NA,NA,NA
+"V489","fBodyGyro-bandsEnergy()-1,8",FALSE,NA,NA,NA
+"V490","fBodyGyro-bandsEnergy()-9,16",FALSE,NA,NA,NA
+"V491","fBodyGyro-bandsEnergy()-17,24",FALSE,NA,NA,NA
+"V492","fBodyGyro-bandsEnergy()-25,32",FALSE,NA,NA,NA
+"V493","fBodyGyro-bandsEnergy()-33,40",FALSE,NA,NA,NA
+"V494","fBodyGyro-bandsEnergy()-41,48",FALSE,NA,NA,NA
+"V495","fBodyGyro-bandsEnergy()-49,56",FALSE,NA,NA,NA
+"V496","fBodyGyro-bandsEnergy()-57,64",FALSE,NA,NA,NA
+"V497","fBodyGyro-bandsEnergy()-1,16",FALSE,NA,NA,NA
+"V498","fBodyGyro-bandsEnergy()-17,32",FALSE,NA,NA,NA
+"V499","fBodyGyro-bandsEnergy()-33,48",FALSE,NA,NA,NA
+"V500","fBodyGyro-bandsEnergy()-49,64",FALSE,NA,NA,NA
+"V501","fBodyGyro-bandsEnergy()-1,24",FALSE,NA,NA,NA
+"V502","fBodyGyro-bandsEnergy()-25,48",FALSE,NA,NA,NA
+"V503","fBodyAccMag-mean()",TRUE,"FreqBodyAccMagMean","Mean by Subject, Activity","MeanFreqBodyAccMagMean"
+"V504","fBodyAccMag-std()",TRUE,"FreqBodyAccMagStd","Mean by Subject, Activity","MeanFreqBodyAccMagStd"
+"V505","fBodyAccMag-mad()",FALSE,NA,NA,NA
+"V506","fBodyAccMag-max()",FALSE,NA,NA,NA
+"V507","fBodyAccMag-min()",FALSE,NA,NA,NA
+"V508","fBodyAccMag-sma()",FALSE,NA,NA,NA
+"V509","fBodyAccMag-energy()",FALSE,NA,NA,NA
+"V510","fBodyAccMag-iqr()",FALSE,NA,NA,NA
+"V511","fBodyAccMag-entropy()",FALSE,NA,NA,NA
+"V512","fBodyAccMag-maxInds",FALSE,NA,NA,NA
+"V513","fBodyAccMag-meanFreq()",FALSE,NA,NA,NA
+"V514","fBodyAccMag-skewness()",FALSE,NA,NA,NA
+"V515","fBodyAccMag-kurtosis()",FALSE,NA,NA,NA
+"V516","fBodyBodyAccJerkMag-mean()",TRUE,"FreqBodyAccJerkMagMean","Mean by Subject, Activity","MeanFreqBodyAccJerkMagMean"
+"V517","fBodyBodyAccJerkMag-std()",TRUE,"FreqBodyAccJerkMagStd","Mean by Subject, Activity","MeanFreqBodyAccJerkMagStd"
+"V518","fBodyBodyAccJerkMag-mad()",FALSE,NA,NA,NA
+"V519","fBodyBodyAccJerkMag-max()",FALSE,NA,NA,NA
+"V520","fBodyBodyAccJerkMag-min()",FALSE,NA,NA,NA
+"V521","fBodyBodyAccJerkMag-sma()",FALSE,NA,NA,NA
+"V522","fBodyBodyAccJerkMag-energy()",FALSE,NA,NA,NA
+"V523","fBodyBodyAccJerkMag-iqr()",FALSE,NA,NA,NA
+"V524","fBodyBodyAccJerkMag-entropy()",FALSE,NA,NA,NA
+"V525","fBodyBodyAccJerkMag-maxInds",FALSE,NA,NA,NA
+"V526","fBodyBodyAccJerkMag-meanFreq()",FALSE,NA,NA,NA
+"V527","fBodyBodyAccJerkMag-skewness()",FALSE,NA,NA,NA
+"V528","fBodyBodyAccJerkMag-kurtosis()",FALSE,NA,NA,NA
+"V529","fBodyBodyGyroMag-mean()",TRUE,"FreqBodyGyroMagMean","Mean by Subject, Activity","MeanFreqBodyGyroMagMean"
+"V530","fBodyBodyGyroMag-std()",TRUE,"FreqBodyGyroMagStd","Mean by Subject, Activity","MeanFreqBodyGyroMagStd"
+"V531","fBodyBodyGyroMag-mad()",FALSE,NA,NA,NA
+"V532","fBodyBodyGyroMag-max()",FALSE,NA,NA,NA
+"V533","fBodyBodyGyroMag-min()",FALSE,NA,NA,NA
+"V534","fBodyBodyGyroMag-sma()",FALSE,NA,NA,NA
+"V535","fBodyBodyGyroMag-energy()",FALSE,NA,NA,NA
+"V536","fBodyBodyGyroMag-iqr()",FALSE,NA,NA,NA
+"V537","fBodyBodyGyroMag-entropy()",FALSE,NA,NA,NA
+"V538","fBodyBodyGyroMag-maxInds",FALSE,NA,NA,NA
+"V539","fBodyBodyGyroMag-meanFreq()",FALSE,NA,NA,NA
+"V540","fBodyBodyGyroMag-skewness()",FALSE,NA,NA,NA
+"V541","fBodyBodyGyroMag-kurtosis()",FALSE,NA,NA,NA
+"V542","fBodyBodyGyroJerkMag-mean()",TRUE,"FreqBodyGyroJerkMagMean","Mean by Subject, Activity","MeanFreqBodyGyroJerkMagMean"
+"V543","fBodyBodyGyroJerkMag-std()",TRUE,"FreqBodyGyroJerkMagStd","Mean by Subject, Activity","MeanFreqBodyGyroJerkMagStd"
+"V544","fBodyBodyGyroJerkMag-mad()",FALSE,NA,NA,NA
+"V545","fBodyBodyGyroJerkMag-max()",FALSE,NA,NA,NA
+"V546","fBodyBodyGyroJerkMag-min()",FALSE,NA,NA,NA
+"V547","fBodyBodyGyroJerkMag-sma()",FALSE,NA,NA,NA
+"V548","fBodyBodyGyroJerkMag-energy()",FALSE,NA,NA,NA
+"V549","fBodyBodyGyroJerkMag-iqr()",FALSE,NA,NA,NA
+"V550","fBodyBodyGyroJerkMag-entropy()",FALSE,NA,NA,NA
+"V551","fBodyBodyGyroJerkMag-maxInds",FALSE,NA,NA,NA
+"V552","fBodyBodyGyroJerkMag-meanFreq()",FALSE,NA,NA,NA
+"V553","fBodyBodyGyroJerkMag-skewness()",FALSE,NA,NA,NA
+"V554","fBodyBodyGyroJerkMag-kurtosis()",FALSE,NA,NA,NA
+"V555","angle(tBodyAccMean,gravity)",FALSE,NA,NA,NA
+"V556","angle(tBodyAccJerkMean),gravityMean)",FALSE,NA,NA,NA
+"V557","angle(tBodyGyroMean,gravityMean)",FALSE,NA,NA,NA
+"V558","angle(tBodyGyroJerkMean,gravityMean)",FALSE,NA,NA,NA
+"V559","angle(X,gravityMean)",FALSE,NA,NA,NA
+"V560","angle(Y,gravityMean)",FALSE,NA,NA,NA
+"V561","angle(Z,gravityMean)",FALSE,NA,NA,NA
