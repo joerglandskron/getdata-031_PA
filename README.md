@@ -53,9 +53,9 @@ Files stored in this repo
 -   **run\_analysis.R**
     -   R-Script for performing the tidying process (task 1-4) and the
         production of the result dataset (task 5)
--   **resultDat.csv**
+-   **resultDat.txt**
     -   Result dataset created as described in task 5)
-    -   Could be read in R with **read.csv("resultDat.csv")**
+    -   Could be read in R with **read.csv("resultDat.txt")**
 
 Usage of run\_analysis.R
 ------------------------
@@ -88,7 +88,7 @@ tasks 1-5 as long as the prerequisits mentioned above are fulfilled.
 run\_analysis.R creates two output-files in the Working Directory:
 
 -   featuresdoc.csv
--   resultDat.csv
+-   resultDat.txt
 
 **featuresdoc.csv** is a documentation of the tidying process (Selection
 of variables, Change of variable names and transormation processes like
@@ -96,5 +96,5 @@ the calculation of the mean of all selected columns). This file was only
 needed to create the CodeBook.md-file with help of the
 makeCodebook.Rmd-file.
 
-**resultDat.csv** is the tidy datset requested in task 5). It can be
-read in in R simply by using read.csv("resultDat.csv").
+**resultDat.txt** is the tidy datset requested in task 5). It can be
+read in in R simply by using read.csv("resultDat.txt").

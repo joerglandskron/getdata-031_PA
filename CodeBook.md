@@ -129,7 +129,7 @@ called **features.doc**. The content of this file you can see in the
 table at the end of this codebook. In this table all the origin variable
 names and the variables are taken for further processing are listed.
 Additionally it is mentioned, which operations are performed on them and
-how they are named in the result data set called **resultDat.csv**.
+how they are named in the result data set called **resultDat.txt**.
 
 ### 3) Create descriptive variable names
 
@@ -273,7 +273,7 @@ calculating a mean on each column by this grouping.
 ### 10) Write result dataset to disc
 
 In the last step the resutl dataset is saved to disc in the file
-**resultDat.csv** which can be found also in this repo.
+**resultDat.txt** which can be found also in this repo.
 
 ### List of all variables
 
@@ -299,7 +299,7 @@ The table consists of 5 columns:
 
 5.  **FinalFeatureName**
     -   Shows the final descriptive variable name from the result
-        dataset stored in the file **resultDat.csv**
+        dataset stored in the file **resultDat.txt**
 
 The list can be found also in this repo stored in file
 **featuresdoc.csv**.

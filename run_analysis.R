@@ -123,5 +123,5 @@ features.doc[features.doc$Used==FALSE,c("CleanFeatureName", "Operation", "FinalF
 write.csv(features.doc, file="featuresdoc.csv", row.names = FALSE)
 
 #Write cleaned data from data.res to disc
-write.csv(data.res, file="resultDat.csv", row.names = FALSE)
+write.csv(data.res, file="resultDat.txt", row.names = FALSE)
 
